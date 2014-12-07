@@ -1,0 +1,32 @@
+Notes (-) & Questions (*)
+
+Ex0
+* Once I'm in the PythonTHW folder, I don't know how to get out of it, either to the parent directory or another folder.
+
+Ex3
+- Python always rounds down, no matter how high the decimal is, unless you put a decimal after one of the inputs (e.g. 5/2 = 2, but 5.0/2 = 2.5 and 5/2.00 = 2.500)
+
+Ex4
+- You can print by doing print "String goes here", variable_name instead of using a % method or .format()
+
+Ex5
+- %s = print a string
+- %d = print integer
+- %r = print raw, will print out with ''
+
+Ex7
+- You can print multiple variables together by doing print variable_1 + variable_2 + variable_3 or by doing print variable_4, print variable_5
+
+Ex13
+- Using int() on the command line doesn't work, have to put it in the file where you define = argv (or in the print command)
+
+Ex15
+- Ctrl + K will comment out a block of highlighted code in Notepad++ (Alt + 3 in IDLE)
+- Ctrl Q will uncomment a block of highlighted code in Notepad++ (Alt + 4 in IDLE)
+- Use file_name.close() to close files at the end of functions like this. It's very important.
+
+Ex16
+- Use .read() to print out the contents of a file (that you've stored in a variable)
+
+Ex17
+* Need to read up more on import and what modules you can import
