@@ -5,7 +5,7 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 print "Here are the days: ", days
 print "Here are the months: ", months
-#So remember you can do this method if you just want to print a string with a single variagle at the end of it. Or you can put it in the middle 'string', variable, 'string2'
+#So remember you can do this method if you just want to print a string with a single variable at the end of it. Or you can put it in the middle 'string', variable, 'string2'
 
 print """
 There's something going on here.
