@@ -1,0 +1,42 @@
+print - print, prints out the variable or string that follows
+# - comment, anything you write after the # symbol on the same line will not be run, you can put it at the start of a line or in the middle of one
++ - add, this will add two numbers. this can also be used to print multiple variables, e.g. print x + y
+- - subtract, this will subtract to numbers
+* - multiply, this will multiply two numbers, you can also use it to multiple a command so print "." * 10 will print out 10 rows, each with one . (if you change the command to print ".", * 10 it will return .......... all on one line)
+/ - divide, this will divide two numbers
+> - greater than, this will evaluate whether the number on the left is larger than the number on the right, doesn't have to be integers on either side, can be equations or variable names (as long as the variables have a numeric value)
+< - less thank, evaluates if left side is smaller than what's on the right, like above
+>= - greater than or equal to,
+<= - less than or equal to,
+== - is equal to, evaluates if two numbers or variables are equal to each other, does NOT have to be used with only numbers and is NOT the same thing as =
+!= - is not equal to, evaluates if two variable are not equal to each other, does not have to be used with only 
+NOTE: with math operators, Python rounds down to whole numbers unless one or more of the variables in the equation has a decimal place. If that is the case, the answer will contain the same number of decimals as that operator (or, if multiple inputs have decimals, it will return a result with the largest number of decimals an input has)
+= - equals, assigns a value to a variable, NOT the same as ==
+%s - string formatting specifier. will print a string, syntax: print 'Something is %s. A second thing is %s' % (something, second_thing), items in parenthesis can be variables, integers, strings, or math operators (with numbers or variables that contain numbers)
+%d - string formatting specifier. will print a decimal integer
+%r - string formatting specifier. will print raw version of whatever you are formatting in the print command, most useful for debugging
+NOTE: you can put these string formatting specifiers inside of variables, you just have to remember to specify what value goes in there when you print them e.g. x = "%r %r %r" print x % (1, 2, 'three')
+NOTE - these string formatting methods have been deprecated in favor of the str.format() method, so use that instead!
+, - removes line break between multiple print commands, also allows you to print a variable e.g. print "This is the value of x: ", x, ". This is the value of y: ", y
+True - built in feature that measures the value of true, can be used with = operator and if statements and for loops
+False - build in feature that measures the concept of false, use with =, if statements, and for loops
+\n - line break, place in the middle of a string and it will move whatever is after it on a new line, ca multiple \n\n\n
+\t - tab, place in the middle of a string and it will move whatever is after it in one tab, can multiply \t\t\t
+""" - comment, this allows to you comment out more than one line at a time, place it at the beginning and end of what you want to comment out and it prevents you from having to place a # in front of each line
+NOTE: Ctrl + K will comment out a block of highlighted code in Notepad++ (Alt + 3 in IDLE) and Ctrl Q will uncomment a block of highlighted code in Notepad++ (Alt + 4 in IDLE)
+\' - true apostrophe, this will tell Python to print a true string ' regardless of how you define your string ('string' or "string")
+\" - true quotation, this will tell Python to print a true string of " no matter how you open or close your string
+\\ = true backslash, prints a backslash character
+\b - backspace, deletes whatever character precedes it. tbh i have no idea why you would use this and the internet doesn't seem to think it's very important either
+raw_input=() - raw input, asks the user to input some information, usually assigns that information to a variable
+NOTE: the parenthesis can contain a string, e.g. user_answer = raw_input("> "), they can also contain a variable, see ex14 for an example, prompt = "Your answer:" new_variable=raw_input(prompt)
+import - import, imports a module from a certain file or system
+argv - argument variable, this is a variable that holds all the arguments that you pass to the script
+from sys import argv - 
+script, first, second, third = argv - this statement UNPACKS the argument variable and tells Python to assign argv to all the variables to the left of the =, when you run this file or script, you have to define these variable when you run the script (i.e. there will not be a raw_input command to prompt the user or ask them to define the variables)
+open() - opens a file and (usually) assings the contents of that file to a variable, and you can/should specific if you want to open the file as read only ('r') or write ('w') syntax: file_variable = open(file_name, 'r')
+.read() - reads a file that has usually been saved as a file, syntax: file_variable.read()
+.close() - closes a file, syntax: file_variable.close()
+.truncate() - truncate, removes all the info from a file opened in the script, syntax: file_variable.truncate()
+def = defines a function
+return = in a function, you can 'return' anything you can put to the right of a '='
