@@ -30,3 +30,13 @@ Ex16
 
 Ex17
 * Need to read up more on import and what modules you can import
+
+Ex21
+- In a function, you can 'return' anything you can put to the right of a '='
+
+Ex22
+* still stuck on the following:
+	- from sys import argv
+	- importing things in general, where am i importing things from, exactly?
+	- opening files, writing to them, and closing them
+
