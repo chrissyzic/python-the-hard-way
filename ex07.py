@@ -25,6 +25,6 @@ end11 = "e"
 end12 = "r"
 
 #watch that comma at the end. try removing it to see what happens
-print end1 + end2 + end3 + end4 + end5 + end6
+print end1 + end2 + end3 + end4 + end5 + end6,
 print end7 + end8 + end9 + end10 + end11 + end12
 #If you remove the comma it puts the next print command on a different line. If you include it, it puts them on the same line (with no comma in between them)
