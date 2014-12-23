@@ -40,3 +40,10 @@ Ex22
 	- importing things in general, where am i importing things from, exactly?
 	- opening files, writing to them, and closing them
 
+Ex 24
+- You can define new variables by calling a function as long as the function returns the same number of items as variables you are trying to define, e.g. var_1, var_2, var_3 = defined_function(100) as long as defined_function returns 3 things.
+
+Ex 25
+- To run Python in the PowerShell like IDLE, just type "python"
+-- If you're doing this make sure to import the file you want to run
+- To stop running Python in the PowerShell, type "exit()". You have to exit and reopen python and reimport the file if you've made any changes
