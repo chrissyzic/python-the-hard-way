@@ -5,7 +5,7 @@ def alarm():
     print "Your alarm goes off. Do you get up or hit snooze?"
 	
     choice = raw_input()
-    snooze count = 
+    snooze_count = 0
 
     if snooze_count == 4:
         late("You overslept.")
@@ -40,11 +40,11 @@ def bathroom():
     choice = raw_input()
 
     if choice == 'wash hair':
-        print "washing hair lala"
+        late("Meaning you have to blowdry it.")
     elif choice == 'shave':
         late("Shaving takes too long.")
     else:
-        print "say wha"
+        on_time()
     
 
 def closet():
